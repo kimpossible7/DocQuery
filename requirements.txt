@@ -1,0 +1,13 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+langchain==0.0.305
+pdfminer.six==20221105
+pydantic==1.10.8
+streamlit==1.25.0
+python-dotenv==1.0.0   # For managing environment variables
+requests               # For sending HTTP requests from Streamlit to the FastAPI backend
+pytest                 # For unit testing
+pytest-asyncio==0.21.1 # For async test cases
+loguru==0.7.0          # Enhanced logging support
+redis                  # For caching, if Redis is used for persistent caching
+httpx
